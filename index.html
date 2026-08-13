@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa Culturama</title>
 </head>
+
 <body>
     <header> 
         <h1>Pesquisa Online</h1>
@@ -35,7 +36,7 @@
                 <br>
             </fieldset> -->
         
-            <fieldset>
+            <!-- <fieldset>
 
                 <legend>Perfil</legend>
 
@@ -58,7 +59,7 @@
                     <option value="divorciado">Divorciado</option>
                     <option value="uniaoEstavel">União estável</option>
                 </select>
-                <br>
+                
                 <label for="userState">Estado:</label>
                 <select name="userState" required>
                   <option value="notInformed">Selecione...</option>
@@ -93,9 +94,26 @@
                 <br>
                 <label for="userCity">Cidade:</label>
                 <input type="text" name="userCity" placeholder="Ex.:São Paulo">
-            </fieldset>
+            </fieldset> -->
 
             
+            <fieldset>
+                <legend>Hábitos</legend>
+                <p>Redes Sociais:</p>
+                <input type="checkbox" name="social" value="instagram">
+                <label for="social">Instagram</label>
+                <br>
+                <input type="checkbox" name="social" value="facebook">
+                <label for="social">Facebook</label>
+                <br>
+                <input type="checkbox" name="social" value="linkedin">
+                <label for="social">Linkedin</label>
+                <br>
+                <input type="checkbox" name="social" value="X">
+                <label for="social">X</label>
+                <br>                
+            </fieldset>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
