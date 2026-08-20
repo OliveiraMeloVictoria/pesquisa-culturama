@@ -1,4 +1,4 @@
-*{
+body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,10 +41,7 @@ legend{
     font-size: 18px;
     padding: 0 5px;
 }
-label{
-    display: inline-block;
-    margin-bottom: 5px;
-}
+
 
 p{
     margin-bottom: 15px;
@@ -68,8 +65,12 @@ input[type="color"]{
     width: 40px;
     padding: 0 5px;
 }
-input[type="tell"], 
-imput[type="file"]{
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+input[type="tel"], 
+input[type="file"]{
     margin-bottom: 0;
 }
 small{
