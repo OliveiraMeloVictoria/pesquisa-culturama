@@ -45,6 +45,7 @@ label{
     display: inline-block;
     margin-bottom: 5px;
 }
+
 p{
     margin-bottom: 15px;
     font-weight: bold;
@@ -67,6 +68,15 @@ input[type="color"]{
     width: 40px;
     padding: 0 5px;
 }
+input[type="tell"], 
+imput[type="file"]{
+    margin-bottom: 0;
+}
+small{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
 input:invalid, 
 select:invalid, 
 textarea:invalid{
@@ -77,6 +87,10 @@ input:valid,
 select:valid, 
 textarea:valid{
     border-color: green;
+}
+input:focus{
+    border-color: cornflowerblue;
+    outline: none;
 }
 button{
     width: 100px;
